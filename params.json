@@ -1,0 +1,6 @@
+{
+  "name": "Ninth chord",
+  "tagline": "A simple app to understand laravel, angular implementation with repository abstraction",
+  "body": "# ninth_chord\r\n\r\nThe project aims at the basic understanding of angular with laravel in a way to understand the basic restful data flow and front-end templating. The use of repository abstraction layer has been made. [read more](https://bosnadev.com/2015/03/07/using-repository-pattern-in-laravel-5/?utm_source=prettus-l5-repository&utm_medium=readme&utm_campaign=prettus-l5-repository) \r\n\r\n\r\nBefore starting the app take a few notes-:\r\n- After cloning the project do a composer dump-autoload && composer update(this will install all the dependencies)\r\n- Copy all the settings from .env.example and create and copy it to .env(edit the settings if required)\r\n- Create a Database with name specified in env.\r\n- Run command php artisan migrate(this will create all the tables)\r\n- Finally point your subdomain or virtual host to the public folder and you are all set up to go!(an alternate is php artisan serve-> will run the project at localhost:8000)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
