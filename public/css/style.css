@@ -1,0 +1,86 @@
+body {
+	padding-top:65px;
+}
+
+a:focus{
+  outline: none !important;
+}
+/*top navbar styling*/
+
+.nav-collapse.collapse {
+  display: block!important;
+  height: auto!important;
+  overflow: visible!important;
+}
+
+.navbar {
+  background-color: #eee;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+  color: #555;
+  background-color: #d5d5d5;
+}
+
+/*
+ The animate class is apart of the element and the ng-enter class
+ is attached to the element once the enter animation event is triggered
+*/
+.mainview-animation.ng-enter {
+  -webkit-transition: 0.7s cubic-bezier(0.5, 0.1, 0.25, 1) all; /* Safari/Chrome */
+  -moz-transition: 0.7s cubic-bezier(0.5, 0.1, 0.25, 1) all; /* Firefox */
+  -o-transition: 0.7s cubic-bezier(0.5, 0.1, 0.25, 1) all; /* Opera */
+  transition: 0.7s cubic-bezier(0.5, 0.1, 0.25, 1) all; /* IE10+ and Future Browsers */
+}
+
+/**
+ * Pre animation -> enter
+ */
+.mainview-animation.ng-enter{
+  /* The animation preparation code */
+  opacity: 0;
+}
+
+/**
+ * Post animation -> enter
+ */
+.mainview-animation.ng-enter.ng-enter-active {
+  /* The animation code itself */
+  opacity: 1;
+}
+
+.searchbar {
+	border: 1px solid black;
+	border-radius: 14px;
+	background: white;
+	padding: 0px 13px;
+}
+
+.searchbar input {
+	border: none;
+    width: 93%;
+}
+
+.searchbar input:focus {
+	outline: none;
+}
+
+.list-group {
+	margin: 15px 0px;
+}
+
+.list-group-item {
+	border: 1px solid black;
+}
+
+.staring:focus {
+	outline: none;
+}
+
+.add_tracks {
+	padding: 0px 42px;
+}
+
+.close_genre {
+	overflow: auto;
+}
